@@ -13,7 +13,7 @@ const LayoutTable = () => {
                   Feature/Benefit
                 </th>
                 <th className="text-left py-4 text-sm font-semibold border-b border-gray-700">
-                  AudioShelf
+                  Lifetime Deal Users
                 </th>
                 <th className="text-left py-4 text-sm font-semibold border-b border-gray-700">
                   Regular Pay-As-You-Go Users
@@ -71,14 +71,14 @@ const LayoutTable = () => {
                       height="20"
                       width="20"
                       viewBox="0 0 512 512"
-                      className="mr-3"
+                      className="mr-2"
                     >
                       <path
-                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
-                        fill="#10b981"
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4-9.4-24.6-9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
+                        fill="#ef4444"
                       />
                     </svg>
-                    <span>Yes</span>
+                    <span>No</span>
                   </div>
                 </td>
                 <td className="py-4 border-b border-gray-700 w-1/3 ">
@@ -110,14 +110,14 @@ const LayoutTable = () => {
                       height="20"
                       width="20"
                       viewBox="0 0 512 512"
-                      className="mr-3"
+                      className="mr-2"
                     >
                       <path
-                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
-                        fill="#10b981"
+                        d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4-9.4-24.6-9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"
+                        fill="#ef4444"
                       />
                     </svg>
-                    <span>Full customization</span>
+                    <span>No</span>
                   </div>
                 </td>
                 <td className="py-4 border-b border-gray-700 w-1/3 ">

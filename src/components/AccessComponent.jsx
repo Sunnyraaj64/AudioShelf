@@ -1,5 +1,5 @@
 import React from "react";
-import SideImg from "../assets/Images/image.png";
+import SideImg from "../assets/images/image.png";
 
 const AccessComponent = () => {
   return (

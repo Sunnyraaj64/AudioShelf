@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import DepositImg from '../assets/Images/deposit.png'
-import SavingImg from '../assets/Images/massive.png'
+import DepositImg from '../assets/images/deposit.png'
+import SavingImg from '../assets/images/massive.png'
 
 const LifetimeDeal = () => {
   const [counter, setCounter] = useState(248) // Initial counter value
@@ -21,10 +21,10 @@ const LifetimeDeal = () => {
   return (
     <>
       <div className='max-w-[1200px] m-auto'>
-        <div className='grid lg:grid-cols-3 max-sm:p-5 gap-5'>
-          <h2 className='text-white text-center text-4xl max-sm:text-3xl max-sm:mt-10 font-bold mb-10'>
+          <h2 className='text-white text-center text-4xl max-sm:text-3xl max-sm:p-5 max-sm:mt-10 font-bold mb-10'>
             Why Seize the Lifetime Deal Now?
           </h2>
+        <div className='grid lg:grid-cols-3 max-sm:p-5 gap-5'>
           <div className='bg-[#171717] p-8 rounded-[10px]  '>
             <div className='icon-svg-div'>
               <svg

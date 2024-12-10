@@ -2,8 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoImg from "../Assets/Images/AudioShelfLogo.png";
 import "../css/navbar.css";
+import PropTypes from 'prop-types';
 
-const Navbar = () => {
+const Navbar = ({
+  scrollToWhyChoose,
+  scrollToPricing,
+  scrollToHowItWorks,
+  scrollToFeatures,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
@@ -104,70 +110,38 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/whychoose"
+                  <button
+                    onClick={scrollToWhyChoose}
                     className="block py-2 px-3 text-md bg-customRed text-[#D4D4D4] rounded md:bg-transparent md:hover:text-customRed md:p-0 "
                     aria-current="page"
                   >
-                    Why Choose
-                  </Link>
-                </li>
-                {/* <div className="dropdown">
-                <Link to="/services">
-                  <button className="block py-2 px-3 text-md text-[#D4D4D4] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-customRed md:p-0">
-                    Services
+                    Why Choose Us
                   </button>
-                </Link>
-                <div className="dropdown-content">
-                  <Link
-                    className="text-white border-b-2 border-white hover:text-customRed"
-                    to="/metaverse"
-                  >
-                    METAVERSE
-                  </Link>
-                  <Link
-                    className="text-white border-b-2 border-white hover:text-customRed"
-                    to="/artificialIntellegence"
-                  >
-                    ARTIFICIAL INTELLIGENCE
-                  </Link>
-                  <Link
-                    className="text-white border-b-2 border-white hover:text-customRed"
-                    to="/webdev"
-                  >
-                    WEB DEVELOPMENT
-                  </Link>
-                  <Link
-                    className="text-white hover:text-customRed"
-                    to="/appdev"
-                  >
-                    MOBILE APP DEVELOPMENT
-                  </Link>
-                </div>
-              </div> */}
+                </li>
+
                 <li>
-                  <Link
-                    to="/pricing"
+                  <button
+                    onClick={scrollToPricing}
                     className="block py-2 px-3 text-md text-[#D4D4D4] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-customRed md:p-0"
                   >
                     Pricing
-                  </Link>
+                  </button>
                 </li>
                 <li>
-                  <Link
-                    to="/work"
+                  <button
+                    onClick={scrollToHowItWorks}
                     className="block py-2 px-3 text-md text-[#D4D4D4]  rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-customRed md:p-0"
                   >
                     How does it work
-                  </Link>
+                  </button>
                 </li>
                 <li>
-                  <Link
-                    to="/features"
+                  <button
+                    onClick={scrollToFeatures}
                     className="block py-2 px-3 text-md text-[#D4D4D4] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-customRed md:p-0 md:dark:hover:text-blue-500"
                   >
                     Features
-                  </Link>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -178,4 +152,11 @@ const Navbar = () => {
   );
 };
 
+
+Navbar.propTypes = {
+  scrollToPricing: PropTypes.func.isRequired, 
+  scrollToWhyChoose: PropTypes.func.isRequired,
+  scrollToHowItWorks: PropTypes.func.isRequired,
+  scrollToFeatures: PropTypes.func.isRequired,
+};
 export default Navbar;

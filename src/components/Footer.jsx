@@ -1,4 +1,4 @@
-import Logo from '../Assets/Images/AudioShelfLogo.png'
+import Logo from '../Assets/images/AudioShelfLogo.png'
 import { Link } from 'react-router-dom'
 import { FaInstagram, FaTiktok, FaFacebook, FaYoutube } from 'react-icons/fa'
 

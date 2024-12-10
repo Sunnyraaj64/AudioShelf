@@ -1,20 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import ThankyouPage from "./pages/ThankyouPage";
-import Layout from "./pages/Layout";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ThankyouPage from './pages/ThankyouPage';
+import Layout from './pages/Layout';
 
-function App () {
+function App() {
   return (
     <>
-     <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/layout" element={<Layout />} />
           <Route path="/thankyou" element={<ThankyouPage />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

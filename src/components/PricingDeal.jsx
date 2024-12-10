@@ -1,5 +1,5 @@
 import React from "react";
-import VSIMG from "../assets/Images/VS.png";
+import VSIMG from "../assets/images/VS.png";
 
 const PricingDeal = () => {
   return (

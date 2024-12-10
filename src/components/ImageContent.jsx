@@ -1,4 +1,4 @@
-import SideImg from '../assets/Images/image.png'
+import SideImg from '../assets/images/image.png'
 
 const ImageContent = () => {
   return (

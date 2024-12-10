@@ -1,5 +1,5 @@
 import React from "react";
-import TextImg from "../assets/Images/ImageText.png";
+import TextImg from "../assets/images/ImageText.png";
 
 const TextImglayout = () => {
   return (

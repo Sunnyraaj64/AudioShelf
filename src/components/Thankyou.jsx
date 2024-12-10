@@ -1,5 +1,5 @@
-import ThanksImg from "../assets/Images/Thanks.png";
-import vectorImg from "../assets/Images/VectorImg.png";
+import ThanksImg from "../assets/images/Thanks.png";
+import vectorImg from "../assets/images/VectorImg.png";
 
 const Thankyou = () => {
   return (

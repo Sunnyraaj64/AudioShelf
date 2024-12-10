@@ -1,4 +1,4 @@
-import CloudImg from '../assets/Images/CloudImg.png'
+import CloudImg from '../assets/images/CloudImg.png'
 
 const CloudComponent = () => {
   return (

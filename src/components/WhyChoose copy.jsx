@@ -1,17 +1,17 @@
 import { useEffect } from 'react';
 import '../css/main.css'
 
-import button1 from '../assets/Images/WhyChooseComponent/button-1.png'
-import button2 from '../assets/Images/WhyChooseComponent/button-2.png'
-import button3 from '../assets/Images/WhyChooseComponent/button-3.png'
-import button4 from '../assets/Images/WhyChooseComponent/button-4.png'
-import button5 from '../assets/Images/WhyChooseComponent/button-5.png'
-import button6 from '../assets/Images/WhyChooseComponent/button-6.png'
+import button1 from '../assets/images/WhyChooseComponent/button-1.png'
+import button2 from '../assets/images/WhyChooseComponent/button-2.png'
+import button3 from '../assets/images/WhyChooseComponent/button-3.png'
+import button4 from '../assets/images/WhyChooseComponent/button-4.png'
+import button5 from '../assets/images/WhyChooseComponent/button-5.png'
+import button6 from '../assets/images/WhyChooseComponent/button-6.png'
 
-import audio from '../assets/Images/videoplayback.m4a'
-// import book1 from '../assets/Images/WhyChooseComponents/book1.png'
-// import book2 from '../assets/Images/WhyChooseComponents/book2.png'
-// import book3 from '../assets/Images/WhyChooseComponents/book3.png'
+import audio from '../assets/images/videoplayback.m4a'
+// import book1 from '../assets/images/WhyChooseComponents/book1.png'
+// import book2 from '../assets/images/WhyChooseComponents/book2.png'
+// import book3 from '../assets/images/WhyChooseComponents/book3.png'
 
 const WhyChoose = () => {
   useEffect(() => {

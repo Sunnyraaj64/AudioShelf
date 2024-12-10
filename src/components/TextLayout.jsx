@@ -1,4 +1,4 @@
-import rightlayout from "../assets/Images/right-layout.png";
+import rightlayout from "../assets/images/right-layout.png";
 
 const TextLayout = () => {
   return (
